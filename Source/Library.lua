@@ -80,7 +80,7 @@ function Luache:Implement(tipo)
         ["username"] = tostring(game:GetService("Players").LocalPlayer.Name),
         ["displayname"] = tostring(game:GetService("Players").LocalPlayer.DisplayName),
         ["userid"] = tostring(game:GetService("Players").LocalPlayer.UserId),
-        ["clientid"] = tostring(game:GetService("RbxAnalyticsService"):GetClientId()),
+        ["identifier"] = tostring(gethwid() or game:GetService("RbxAnalyticsService"):GetClientId()),
         ["touch"] = tostring(Toque),
         ["gamepad"] = tostring(Gamepado),
         ["keyboard"] = tostring(Teclado)
