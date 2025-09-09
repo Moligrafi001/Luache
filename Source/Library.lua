@@ -73,7 +73,7 @@ function Luache:Implement(tipo)
         ["type"] = tostring(tipo),
         ["service"] = tostring(Configs.Service),
         ["executor"] = tostring(ExecutorName),
-        ["gamename"] = tostring(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name),
+        ["placename"] = tostring(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name),
         ["gameid"] = tostring(game.GameId),
         ["placeid"] = tostring(game.PlaceId),
         ["serversize"] = tostring(#game.Players:GetPlayers()) .. "/" .. tostring(game.Players.MaxPlayers),
