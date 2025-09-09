@@ -67,7 +67,7 @@ function Luache:Implement(tipo)
     end
     local httrest = http_request or request or (syn and syn.request) or (fluxus and fluxus.request) or (http and http.request)
     local response = httrest({
-      Url = "https://orange-auth.squareweb.app/api/integrity",
+      Url = "https://luache.squareweb.app/api/integrity",
       Method = "POST",
       Headers = {
         ["type"] = tostring(tipo),
