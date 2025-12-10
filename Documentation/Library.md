@@ -70,7 +70,7 @@ local function ValidateKey(key) -- Your own custom function to check the key
   
   print(message) -- message is a 2nd arg sent from the check function telling you the reason for the result
   
-  result success, result -- Returns the same as the Luache check function
+  result success, message -- Returns the same as the Luache check function
 end
 local function GetKey() -- Your own custom function to get key
   setclipboard(Luache:GetKey()) -- Will copy the get key url returned by Luache
