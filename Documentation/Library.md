@@ -9,7 +9,7 @@ Welcome! This tutorial explains how to use the **Luche Vitae Library**. This pow
 First, load the library directly from GitHub using `loadstring` combined with `game:HttpGet`, which retrieves and executes the remote code.
 
 ```lua
-local Luache = loadstring(game:HttpGet("https://raw.githubusercontent.com/Moligrafi001/Luche-Vitae/refs/heads/main/Auth.lua"))() -- Load the Library
+local Luache = loadstring(game:HttpGet("https://raw.githubusercontent.com/Moligrafi001/Luache/main/Source/Library.lua"))() -- Load the Library
 ```
 
 ## 2. Initializing Settings
